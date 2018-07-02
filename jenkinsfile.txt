@@ -1,0 +1,12 @@
+#!/usr/bin/env
+node{
+  git url :'https://github.com/narendras2008/cucumberbasic.git'
+   stages {
+       stage'build'{
+          step{
+               sh 'build'
+              }
+            }
+          }
+        }
+    
